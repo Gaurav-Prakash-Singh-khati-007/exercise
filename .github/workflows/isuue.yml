@@ -2,7 +2,7 @@ name: issue
 on: push
 jobs:
     issue-info:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
         steps:
         - name: output details
           run: echo ${{toJSON(github.event)}}

@@ -4,5 +4,5 @@ jobs:
     issue-info:
         runs-on: windows-latest
         steps:
-        - name: info
+        - name: output details
           run: echo "${{toJson(github.event)}}"

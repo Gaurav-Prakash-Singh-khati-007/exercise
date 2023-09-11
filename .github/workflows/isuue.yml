@@ -1,5 +1,5 @@
 name: issue
-on: issues
+on: push
 jobs:
     issue-info:
         runs-on: windows-latest
